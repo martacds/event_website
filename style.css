@@ -1,0 +1,250 @@
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+    background-color: #F4F4F4;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+    width: 1024px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+    border-width: 2px;
+    border-color: #F4F4F4;
+    border-style: solid;
+    background-color: #F4F4F4;
+    text-align: center;
+  }
+
+  div.page_header {
+    width: 100%;
+    background-color: #F4F4F4;
+  }
+
+  div.page_header img {
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px;
+  }
+
+  div.menu {
+    width: 100%;
+  }
+
+  div.page_body {
+    clear: left;
+    min-width: 200px;
+    min-height: 200px;
+    margin: 3px 3px 3px 3px;
+    background-color: #FFFFFF;
+    text-align: left;
+  }
+
+  div.title_one {
+    padding: 2px 4px 2px 4px;
+    color: #007eaa;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  div.title_two {
+    padding: 4px 8px 4px 8px;
+    color: #66b1cc;
+    font-size: 20px;
+  }
+
+  div.page_body_text {
+    padding: 4px 8px 4px 8px;
+    color: #333;
+    font-size: 100%;
+    text-align: justify;
+  }
+
+  div.page_body_text p {
+    margin-bottom: 6px;
+  }
+
+  div.page_body_text ul {
+    margin-left: 30px;
+    margin-bottom:6px;
+    list-style-type: square;
+  }
+
+  div.page_body_text a {
+    color: #007eaa;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  div.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  div.menu li {
+    float: left;
+  }
+
+  div.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  div.menu li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #007eaa;
+  }
+
+  .footer {
+    background-color: #F4F4F4;
+    text-align: center;
+  }
+
+.button {
+   background-color: #007eaa;
+   padding: 10px 10px;
+   text-align: center;
+   font-size: 16px;
+   border-radius: 10px;
+  }
+
+div.button:hover {
+  background-color: #005876;
+  color: #FFFFFF;
+}
+
+div.button a {
+   color: #FFFFFF;
+   font-weight:bold;
+  }
+
+img {
+  margin:0px 0px 0px 10px;
+  vertical-align:middle;
+}
+
+ol li {
+  margin-left: 35px;
+  padding: 5px;
+}
+
+table {
+  font-size:13px;
+  border: 1px solid #cce5ee;
+  border-collapse: collapse;
+  padding:10px;
+}
+
+td img {
+  margin: 0px 20px 0px 0px;
+}
+
+td {
+  border-right: 1px solid #cce5ee;
+  padding: 10px;
+  vertical-align: top;
+}
+
+th {
+  font-size: 20px;
+  border-right: 1px solid #cce5ee;
+  padding: 2px;
+}
+
+th img {
+  margin: 0px 5px 0px 0px;
+}
+
+div.horizontalBar {
+  background-color: #A9A9A9
+}
+
+nav {
+  list-style:none inside;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+#nav li {
+   background: #000000;
+   color: #ffffff;
+   display:block;
+   position:relative;
+   float:left;
+   line-height:35px;
+   width:203px; /* this is the width of the menu items */
+}
+
+#nav li a {
+  display:block;
+  padding:0;
+  text-decoration:none;
+  width:203px; /* this is the width of the menu items */
+  line-height:35px; /* this is the hieght of the menu items */
+  color:#ffffff; /* list item font color */
+}
+
+#nav li:hover {
+  background:#66b1cc;
+} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+
+#nav ul {
+  position:absolute;
+  padding:0;
+  left:0;
+  text-align:left;
+  display:none; /* hides sublists */
+}
+
+#nav li:hover ul {
+  display:block;
+} /* shows sublist on hover */
+
+#nav li li a {
+  padding:0px 0px 0px 6px;
+  font-size: 90%;
+} /* remove a if sub-sublists exist and sublist doesn't have links*/
+
+#nav li:hover ul ul {
+  display:none;
+} /* hides sub-sublists */
+
+#nav li li:hover ul {
+  display:block; /* shows sub-sublist on hover */
+  margin-left:254px; /* this should be the same width as the parent list item */
+  margin-top:-35px; /* aligns top of sub menu with top of list item */
+}
+
+#nav li li li {
+  width: 180px;
+  font-size: 100%;
+}
+
+ .scrollterms {
+  height: 500px;
+  overflow-y:auto;
+}
+
+hr {
+  color: #b2d8e5;
+  border-width: 1px;
+}
