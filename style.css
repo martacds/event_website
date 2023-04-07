@@ -51,15 +51,16 @@
 
   div.title_one {
     padding: 2px 4px 2px 4px;
-    color: #007eaa;
-    font-size: 25px;
+    color: #0C4DA2;
+    font-size: 30px;
     font-weight: bold;
   }
 
   div.title_two {
     padding: 4px 8px 4px 8px;
-    color: #66b1cc;
-    font-size: 20px;
+    color: #0C4DA2;
+    font-size: 25px;
+    font-weight: bold;
   }
 
   div.page_body_text {
@@ -110,7 +111,7 @@
   }
 
   .active {
-    background-color: #007eaa;
+    background-color: #0C4DA2;
   }
 
   .footer {
@@ -119,7 +120,7 @@
   }
 
 .button {
-   background-color: #007eaa;
+   background-color: #0C4DA2;
    padding: 10px 10px;
    text-align: center;
    font-size: 16px;
@@ -127,13 +128,14 @@
   }
 
 div.button:hover {
-  background-color: #005876;
+  background-color: #9DB7D9;
   color: #FFFFFF;
 }
 
 div.button a {
    color: #FFFFFF;
    font-weight:bold;
+   text-decoration: none;
   }
 
 img {
@@ -146,30 +148,74 @@ ol li {
   padding: 5px;
 }
 
-table {
-  font-size:13px;
-  border: 1px solid #cce5ee;
+/* table 1 style */
+
+table.table1 {
+  font-size:12px;
+  border: 2px solid white;
   border-collapse: collapse;
   padding:10px;
 }
 
-td img {
+table.table1 td img {
   margin: 0px 20px 0px 0px;
 }
 
-td {
-  border-right: 1px solid #cce5ee;
+table.table1 td {
+  border-right: 2px solid white;
   padding: 10px;
   vertical-align: top;
+  font-size: 15px;
 }
 
-th {
+table.table1 tr:nth-child(odd) {
+  background-color: #d7e2ef;
+}
+
+table.table1 th {
   font-size: 20px;
-  border-right: 1px solid #cce5ee;
+  border-right: 2px solid white;
   padding: 2px;
 }
 
-th img {
+table.table1 th img {
+  margin: 0px 5px 0px 0px;
+}
+
+/* table 2 style */
+
+table.table2 {
+  font-size:15px;
+  /* border: 2px solid black; */
+  border: 0px;
+  border-collapse: collapse;
+  padding:10px;
+}
+
+table.table2 td img {
+  margin: 0px 0px 0px 0px;
+}
+
+table.table2 td {
+  /* border-right: 2px solid black; */
+  border: 0px;
+  padding: 10px;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+table.table2 tr:nth-child(even) {
+  background-color: #d7e2ef;
+}
+
+table.table2 th {
+  font-size: 20px;
+  /* border-right: 2px solid black; */
+  border: 0px;
+  padding: 2px;
+}
+
+table.table2 th img {
   margin: 0px 5px 0px 0px;
 }
 
@@ -191,20 +237,20 @@ nav {
    position:relative;
    float:left;
    line-height:35px;
-   width:203px; /* this is the width of the menu items */
+   width:255px; /* this is the width of the menu items */
 }
 
 #nav li a {
   display:block;
   padding:0;
   text-decoration:none;
-  width:203px; /* this is the width of the menu items */
-  line-height:35px; /* this is the hieght of the menu items */
+  width:255px; /* this is the width of the menu items */
+  line-height:35px; /* this is the height of the menu items */
   color:#ffffff; /* list item font color */
 }
 
 #nav li:hover {
-  background:#66b1cc;
+  background:#9DB7D9;
 } /* highlights current hovered list item and the parent list items when hovering over sub menues */
 
 #nav ul {
